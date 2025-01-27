@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="s"
+    </head>
+<body>
+   
+        
+    <script>
+  var numero01 = parseFloat(prompt("Digite o primeiro valor"))
+  var numero02 = parseFloat(prompt("digite um numero decimal"))
+  var calculo = numero01+ numero02
+    alert(calculo)
+        document.write("o resultado da soma é "+ calculo)
+           
+  
+    </script>
+   
+</body>
+</html>
+
+
+
+
