@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="s"
+    </head>
+<body>
+   
+        
+    <script>
+       var nota1 = parseFloat(prompt("digite a primeira nota filho"))
+       var nota2 = parseFloat(prompt("digite a segunda nota filho"))
+       var nota3 = parseFloat(prompt("digite a terceira nota filho"))
+        
+    var calculo = (nota1 + nota2 + nota3) /3
+        alert("A nota do aluno é " + (calculo))
+            document.write("A nota do seu filho é " +calculo)
+  
+    </script>
+   
+</body>
+</html>
+
+
