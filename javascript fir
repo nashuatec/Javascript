@@ -1,0 +1,47 @@
+Aqui está um código em JavaScript que atende ao exercício:
+
+// Criando o catálogo de filmes
+const catalogo = [
+    { titulo: "Matrix", ano: 1999, genero: "ação" },
+    { titulo: "O Máskara", ano: 1994, genero: "comédia" },
+    { titulo: "Interestelar", ano: 2014, genero: "ficção científica" },
+    { titulo: "O Chamado", ano: 2002, genero: "terror" },
+    { titulo: "Velozes e Furiosos", ano: 2001, genero: "ação" }
+];
+
+// Solicitando ao usuário um gênero de filme
+const generoEscolhido = prompt("Digite um gênero de filme (ação, comédia, ficção científica, terror, etc.):").toLowerCase();
+
+// Filtrando os filmes pelo gênero escolhido
+const filmesFiltrados = catalogo.filter(filme => filme.genero.toLowerCase() === generoEscolhido);
+
+// Exibindo os resultados
+if (filmesFiltrados.length > 0) {
+    console.log("Filmes encontrados:");
+    filmesFiltrados.forEach(filme => console.log(`${filme.titulo} (${filme.ano})`));
+} else {
+    console.log("Nenhum filme deste gênero foi encontrado.");
+}
+
+Como funciona:
+
+1. Criamos um array catalogo contendo objetos com titulo, ano e genero.
+
+
+2. Pedimos ao usuário para inserir um gênero através do prompt().
+
+
+3. Filtramos o array catalogo para encontrar os filmes que correspondem ao gênero digitado.
+
+
+4. Se houver filmes do gênero escolhido, mostramos os títulos e anos no console.
+
+
+5. Se não houver, exibimos a mensagem: "Nenhum filme deste gênero foi encontrado."
+
+
+
+Caso esteja executando em um ambiente sem prompt(), substitua por um valor fixo para teste, como:
+
+const generoEscolhido = "ação"; // Teste manual
+
